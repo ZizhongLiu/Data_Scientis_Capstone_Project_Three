@@ -1,0 +1,9 @@
+model,f1_train,f1_val,accuracy_score_train,accuracy_score_val,best_estimator
+DecisionTreeClassifier,0.6429729987596603,0.8431686978832587,0.6429729987596603,0.8431686978832585,"DecisionTreeClassifier(max_depth=6, min_samples_leaf=9, min_samples_split=5)"
+GradientBoostingClassifier,0.9056864802976815,0.8277742142398974,0.9056864802976815,0.8277742142398974,GradientBoostingClassifier(learning_rate=0.5)
+GaussianNB,0.5292433928060299,0.7658755612572161,0.5292433928060299,0.7658755612572161,"{'priors': None, 'var_smoothing': 1e-09}"
+RandomForestClassifier,0.8266386795153134,0.7610647851186659,0.8266386795153134,0.7610647851186658,"RandomForestClassifier(max_depth=9, max_features=4, min_samples_leaf=3,
+                       min_samples_split=3)"
+KNeighborsClassifier,0.872912889991413,0.6157793457344451,0.872912889991413,0.6157793457344451,"KNeighborsClassifier(leaf_size=3, p=1)"
+LogisticRegression,0.5440320580097319,0.5894804361770366,0.5440320580097319,0.5894804361770366,"LogisticRegression(C=0.001, max_iter=1, penalty='none', solver='sag')"
+SVC,0.5947905734185669,0.5529185375240538,0.5947905734185669,0.5529185375240538,"SVC(C=10, gamma=0.01)"
